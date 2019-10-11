@@ -19,4 +19,11 @@ steps:
     npm install -g @angular/cli
     npm install
     ng build --prod
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
   displayName: 'npm install and build'
