@@ -9,7 +9,7 @@ To run this project you need NodeJS (version 10.9 or higher) and the Angluar CLI
 Download NodeJS: https://nodejs.org/  
 To install the Angular CLI enter following command: `npm install -g @angular/cli`
 
-## Project Setup
+## Project setup
 
 After cloning the repository execute `npm install` in order to install the dependencies.
 
@@ -36,3 +36,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## View the project on azure  
+  
+https://melcher-city-administration.azurewebsites.net/
