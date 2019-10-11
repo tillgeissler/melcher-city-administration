@@ -2,12 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.9.
 
-## Requirments
+## Requirements
 
 To run this project you need NodeJS (version 10.9 or higher) and the Angluar CLI (version 8 or higher).
 
 Download NodeJS: https://nodejs.org/  
 To install the Angular CLI enter following command: `npm install -g @angular/cli`
+
+## Project Setup
+
+After cloning the repository execute `npm install` in order to install the dependencies.
 
 ## Development server
 
