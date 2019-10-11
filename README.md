@@ -1,6 +1,13 @@
-# MelcherCityAdministration
+# Melcher City Administration
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.9.
+
+## Requirments
+
+To run this project you need NodeJS (version 10.9 or higher) and the Angluar CLI (version 8 or higher).
+
+Download NodeJS: https://nodejs.org/
+To install the Angular CLI enter following command: `npm install -g @angular/cli`
 
 ## Development server
 
