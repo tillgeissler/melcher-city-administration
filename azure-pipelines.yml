@@ -17,9 +17,8 @@ steps:
 
 - script: |
     npm install -g @angular/cli
-    npm install
+    npm install --force
     ng build --prod
-    dir
   displayName: 'npm install and build'
 
 - task: PublishBuildArtifacts@1
